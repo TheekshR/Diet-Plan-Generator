@@ -1,0 +1,18 @@
+{
+  "breakfast": [
+    {"name": "Oats with banana", "cal": 350, "diet": "veg"},
+    {"name": "Egg omelette + toast", "cal": 400, "diet": "non_veg"}
+  ],
+  "lunch": [
+    {"name": "Chicken rice bowl", "cal": 600, "diet": "non_veg"},
+    {"name": "Lentil curry + rice", "cal": 550, "diet": "veg"}
+  ],
+  "dinner": [
+    {"name": "Grilled fish + veggies", "cal": 500, "diet": "non_veg"},
+    {"name": "Paneer curry + roti", "cal": 600, "diet": "veg"}
+  ],
+  "snacks": [
+    {"name": "Greek yogurt + honey", "cal": 180, "diet": "veg"},
+    {"name": "Apple + peanut butter", "cal": 220, "diet": "veg"}
+  ]
+}
