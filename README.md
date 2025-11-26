@@ -34,3 +34,15 @@ A full-stack web application that generates personalized diet plans based on use
 
 ## Project Structure
 
+Diet-Plan-Generator/
+├── backend/ # FastAPI backend code
+│ ├── routers/
+│ ├── main.py
+│ └── requirements.txt
+├── frontend/ # React frontend code
+│ ├── src/
+│ ├── public/
+│ └── package.json
+├── README.md
+└── .gitignore
+
