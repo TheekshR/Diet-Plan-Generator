@@ -1,0 +1,135 @@
+/* General Page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Header */
+.App h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+/* Container for Form + MealPlan */
+.container {
+  display: flex;
+  gap: 20px; /* space between form and meal plan */
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Left column (Form) */
+.left {
+  width: 48%; /* slightly less than 50% to leave gap */
+}
+
+/* Right column (MealPlan) */
+.right {
+  width: 48%; /* slightly less than 50% to leave gap */
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+/* Form */
+form, .form-container {
+  background: #fff;
+  padding: 30px 35px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  margin-bottom: 0; /* remove extra margin for better alignment */
+}
+
+/* Inputs and selects */
+input, select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  width: 100%; /* button full width for better balance */
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* Meal Plan Cards */
+.meal-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  margin: 15px 0;
+}
+
+.meal-card h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.meal-card p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+/* PDF Button */
+a button {
+  background: #02911a;
+  width: auto;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+a button:hover {
+  background: #026913;
+}
+
+/* Responsive Layout */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .left, .right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .App {
+    margin: 10px;
+    padding: 10px;
+  }
+}
